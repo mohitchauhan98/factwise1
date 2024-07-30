@@ -1,0 +1,33 @@
+.accordian-insider{
+    display: flex;
+    gap: 100px;
+    padding: 5px 10px;
+}
+.age-box span{
+    display: block;
+}
+.age-box span:nth-child(1){
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(134, 134, 134);
+}
+
+.age-box span:nth-child(2){
+    font-size: 15px;
+    color: rgb(41, 41, 41);
+}
+.description-accordian{
+    margin-top: 15px;
+    padding: 5px 10px;
+}
+.description-accordian span{
+    display: block;
+    font-size: 15px;
+    color: rgb(41, 41, 41);
+    margin-top: 5px;
+}
+.description-accordian label{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(134, 134, 134);
+}

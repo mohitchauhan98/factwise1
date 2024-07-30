@@ -1,0 +1,68 @@
+.user-box{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.search-box{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    margin-top: 10px;
+}
+.search-input{
+    width: 430px;
+    border: none;
+    outline: none;
+}
+.label{
+    font-size: 20px;
+    font-weight: 400;
+}
+.box-primary{
+    width: 450px;
+    border-radius: 8px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 5px;
+    margin-top: 20px;
+}
+.box-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.bp-image{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.user-image{
+    width: 50px;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 50%;
+    display: flex;
+}
+.user-image img{
+    width: 50px;
+    border-radius: 50%;
+}
+.accordian{
+    max-height: 30px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.accordian.open .accordian-icon svg{
+    transform: rotate(180deg);
+}
+.accordian-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+.accordian-content.open{
+    max-height: 500px;
+}
